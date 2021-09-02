@@ -15,11 +15,11 @@ D:/GitHub/hogefuga/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50608
+51425
 Successfully changed project path to: D:/GitHub/hogefuga/New Unity Project
 D:/GitHub/hogefuga/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -40,63 +40,55 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002578 seconds.
+Registered in 0.002677 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 21.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
+- Completed reload, in  1.110 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000642 seconds.
+Registered in 0.000485 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  0.846 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.9 MB.
 System memory in use after: 59.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.845000 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.584000 ms  DeleteObjects: 0.090100 ms)
+Total: 2.678300 ms (FindLiveObjects: 0.319000 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.183100 ms  DeleteObjects: 0.107000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a33a9bd799f71faca6db75e8a216c') in 0.025257 seconds
-  Import took 0.029094 seconds .
+  path: Assets/red.mat
+  artifactKey: Guid(5d4a22145c44e0b4ab63bd0f10f87ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/red.mat using Guid(5d4a22145c44e0b4ab63bd0f10f87ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f9438833e8f3d1e01b63ef2c3638d') in 0.233151 seconds
+  Import took 0.235565 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.182372 seconds.
-  path: Assets/black.mat
-  artifactKey: Guid(25b1de4ea42687b4db59f2af787b9296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black.mat using Guid(25b1de4ea42687b4db59f2af787b9296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f2ab3d1a162d5db2ebf78e324f0ed3') in 0.212846 seconds
-  Import took 0.215024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.373398 seconds.
-  path: Assets/black.mat
-  artifactKey: Guid(25b1de4ea42687b4db59f2af787b9296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black.mat using Guid(25b1de4ea42687b4db59f2af787b9296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc333003791fc55b5e4e34185715483b') in 0.007827 seconds
-  Import took 0.009943 seconds .
+  Time since last request: 6.372095 seconds.
+  path: Assets/red.mat
+  artifactKey: Guid(5d4a22145c44e0b4ab63bd0f10f87ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/red.mat using Guid(5d4a22145c44e0b4ab63bd0f10f87ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75f1b743160ccc741dedee5a7c103cb') in 0.013359 seconds
+  Import took 0.017301 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
